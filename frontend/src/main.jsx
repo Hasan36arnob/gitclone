@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import { AuthContextProvider } from "./context/AuthContext.jsx";
 // import { AuthContextProvider } from "./context/AuthContext.jsx";
 // import { AuthContextProvider } from "./context/AuthContext.jsx";
+
+// Render the App component wrapped in AuthContextProvider
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<BrowserRouter>
