@@ -10,7 +10,8 @@ import LikesPage from "./pages/LikesPage";
 
 import Sidebar from "./components/Sidebar";
 import { useAuthContext } from "./context/AuthContext";
-
+// Importing components
+import Navbar from "./components/Navbar";
 function App() {
 	const { authUser, loading } = useAuthContext();
 	console.log("Authenticated user:", authUser);
