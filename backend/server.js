@@ -10,6 +10,7 @@ import "./passport/github.auth.js";
 import userRoutes from "./routes/user.route.js";
 import exploreRoutes from "./routes/explore.route.js";
 import authRoutes from "./routes/auth.route.js";
+import paymentRoutes from "./routes/payment.route.js";
 
 import connectMongoDB from "./db/connectMongoDB.js";
 
@@ -31,6 +32,7 @@ app.use(passport.session());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/explore", exploreRoutes);
+app.use("/api/payments", paymentRoutes);
 
 app.use(express.static(path.join(__dirname, "/frontend/dist")));
 

@@ -8,6 +8,9 @@ Some Features:
 
 -   ⚙️ Tech stack: MERN + TailwindCSS + Github API
 -   🔑 Authentication && Authorization with Passport.js (Github Auth)
+-   💳 **SaaS Ready**: Monetization with tiered pricing (Free, Pro, Enterprise)
+-   🏦 **Global Payments**: Integrated support for Wise and Payoneer
+-   🛡️ **Feature Gating**: Tier-based search limits and premium access
 -   👾 Fetch Github User Profiles and Repos
 -   🚀 Filter Repos on the Client
 -   🎭 Learn behind the scenes for authentication

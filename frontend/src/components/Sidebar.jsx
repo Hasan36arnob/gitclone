@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { IoHomeSharp } from "react-icons/io5";
 import { FaHeart } from "react-icons/fa";
 import { MdOutlineExplore } from "react-icons/md";
+import { MdOutlineAttachMoney } from "react-icons/md";
 import { PiSignInBold } from "react-icons/pi";
 import { MdEditDocument } from "react-icons/md";
 import Logout from "./Logout";
@@ -45,6 +46,13 @@ const Sidebar = () => {
 						<MdOutlineExplore size={25} />
 					</Link>
 				)}
+
+				<Link
+					to='/pricing'
+					className='p-1.5 flex justify-center transition-colors duration-200 rounded-lg hover:bg-gray-800'
+				>
+					<MdOutlineAttachMoney size={25} />
+				</Link>
 
 				{!authUser && (
 					<Link
